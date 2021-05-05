@@ -16,3 +16,29 @@ body {
 
 
 /* ------------------- */
+.menu-bar {
+  padding: 20px 0;
+  color: #212121;
+  background-color: #fff;
+}
+
+.menu__item {
+  margin-left: 37px;
+}
+
+.menu__item:first-child {
+  margin-left: 0;
+}
+
+.menu__item a {
+  font-family: 'Open Sans', serif;
+  font-weight: 600;
+  font-size: 20px;
+  letter-spacing: 0.05em;
+  color: #212121;
+}
+
+.menu__item a:hover {
+  text-decoration: none;
+  color: #868686;
+}
