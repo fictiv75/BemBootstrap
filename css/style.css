@@ -42,3 +42,84 @@ body {
   text-decoration: none;
   color: #868686;
 }
+
+/* Шапка */
+.header {
+  padding: 180px 0;
+  text-align: center;
+  color: #fff;
+  background-image: url('../images/header.png');
+  background-position: 0 100%;
+  background-size: cover;
+}
+
+.header__title {
+  font-size: 60px;
+  letter-spacing: 0.05em;
+}
+
+.header__text {
+  margin-bottom: 100px;
+  font-size: 22px;
+  font-weight: 400;
+  letter-spacing: 0.05em;
+}
+
+.button {
+  padding: 10px 25px;
+  margin: 0 10px;
+  color: #fff;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  border: 3px solid transparent;
+  transition: all 0.3s;
+}
+
+.button_empty {
+  background-color: transparent;
+  border: 3px solid #f8f8f8;
+}
+
+.button_full {
+  background-color: #00897b;
+  border: 3px solid #00897b;
+}
+
+.button_empty:hover,
+.button_full:hover {
+  background-color: #14685f;
+}
+
+.about {
+  padding-top: 120px;
+  padding-bottom: 125px;
+  color: #212121;
+  background-color: #fff;
+  text-align: center;
+}
+
+.about__title {}
+
+.title {
+
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+}
+
+.about_h3 {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+}
+
+.about__text {
+  margin-bottom: 110px;
+  font-size: 15px;
+  line-height: 22px;
+  font-weight: 400;
+  letter-spacing: 0.05em;
+}
